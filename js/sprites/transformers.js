@@ -1,10 +1,13 @@
 (function () {
     var names = [
+        'translate'
+    ];
+/*
         'scale',
         'translate',
         'rotate'
-    ];
 
+*/
     var filenames = [ ];
     names.forEach(function (name) {
         filenames.push('sprites/transformers/' + name);
