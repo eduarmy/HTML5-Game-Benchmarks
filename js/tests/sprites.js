@@ -1,6 +1,6 @@
 define([ 'sprites/sources', 'sprites/transformers', 'sprites/renderers', 'util/ensureCallback', 'util/chainAsync', 'util/benchAsync' ], function (sources, transformers, renderers, ensureCallback, chainAsync, benchAsync) {
     var FRAME_COUNT = 100;
-    var TARGET_FRAMERATE = 30;
+    var TARGET_FRAMERATE = 40;
 
     function generateFrames(transformer, frameCount, objectCount) {
         var frames = [ ];
